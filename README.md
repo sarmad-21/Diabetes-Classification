@@ -19,7 +19,9 @@ Link to dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+ind
 - Scikit-learn
 
 ## Models 
+- LDA:
 
+- QDA:
 
 
 ## Performance and Evaluation 
