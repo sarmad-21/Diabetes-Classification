@@ -19,7 +19,11 @@ Link to dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+ind
 - Scikit-learn
 
 ## Models 
-- LDA:
+- LDA: A plug in MAP (Maximum A Posteriori) classifier where likelihood functions for each class are Gaussian with different means but the same covariance matrix. LDA esimates the mean vectors for each class, the shared covariance matrix across classes, and the prior probabilities for each class using the training data. These are then used to compute discriminant functions for each class which assigns a data point to the class with the highest posterior probability.
+
+<pre>
+δ<sub>j</sub>(x) = x<sup>T</sup>Σ<sup>−1</sup>μ<sub>j</sub> − ½ μ<sub>j</sub><sup>T</sup>Σ<sup>−1</sup>μ<sub>j</sub> + ln(π<sub>j</sub>)
+</pre>
 
 - QDA:
 
