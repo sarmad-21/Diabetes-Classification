@@ -6,7 +6,7 @@ This project focuses on classifying individuals as diabetic/prediabetic or non-d
 ## Dataset 
 The dataset used in this project is the CDC Diabetes Health Indicators dataset from the UC Irvine Machine Learning Repository. 
 - Samples: 253,680 individuals
-- Target Variable: Diabetes_binary (1.0: Diabetic, 0.0: Non-diabetic)
+- Target Variable: Diabetes_binary (1.0: Diabetic/Pre-Diabetic, 0.0: Non-diabetic)
 - 21 health, lifestyle, and demographic related features
 
 Link to dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
