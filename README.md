@@ -28,13 +28,7 @@ Link to dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+ind
 - QDA: A plug in MAP (Maximum A Posteriori) classifier where likelihood functions for each class are assumed to be Gaussian with different means and different covariance matrices. QDA estimates the mean vectors for each class, the covariance matrices for each class, and the prior probabilities for each class using the training data. These estimates are then used to compute discriminant functions for each class. A data point is then assigned to the class with the highest discriminant score which is proportional to the log of the posterior probability.  
 
 <pre>
-ŷ<sub>QDA</sub> = arg max<sub>j</sub> [
-−1/2 x<sup>T</sup>Ĉ<sub>j</sub><sup>−1</sup>x 
-+ x<sup>T</sup>Ĉ<sub>j</sub><sup>−1</sup>μ̂<sub>j</sub> 
-− 1/2 μ̂<sub>j</sub><sup>T</sup>Ĉ<sub>j</sub><sup>−1</sup>μ̂<sub>j</sub> 
-− 1/2 ln(det(Ĉ<sub>j</sub>)) 
-+ ln(π̂<sub>j</sub>)
-]
+ŷ<sub>QDA</sub> = arg max<sub>j</sub> [−1/2 x<sup>T</sup>Ĉ<sub>j</sub><sup>−1</sup>x + x<sup>T</sup>Ĉ<sub>j</sub><sup>−1</sup>μ̂<sub>j</sub> − 1/2 μ̂<sub>j</sub><sup>T</sup>Ĉ<sub>j</sub><sup>−1</sup>μ̂<sub>j</sub> − 1/2 ln(det(Ĉ<sub>j</sub>)) + ln(π̂<sub>j</sub>)]
 </pre>
 
 ## Performance and Evaluation 
