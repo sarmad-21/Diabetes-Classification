@@ -22,7 +22,7 @@ Link to dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+ind
 - LDA: A plug in MAP (Maximum A Posteriori) classifier where likelihood functions for each class are Gaussian with different means but the same covariance matrix. LDA esimates the mean vectors for each class, the shared covariance matrix across classes, and the prior probabilities for each class using the training data. These are then used to compute discriminant functions for each class which assigns a data point to the class with the highest posterior probability.
 
 <pre>
-ŷ<sub>LDA</sub> = arg max<sub>j</sub> [ x<sup>T</sup>Ĉ<sup>−1</sup>μ̂<sub>j</sub> − ½ μ̂<sub>j</sub><sup>T</sup>Ĉ<sup>−1</sup>μ̂<sub>j</sub> + ln(π̂<sub>j</sub>) ]
+ŷ<sub>LDA</sub> = arg max<sub>j</sub> [x<sup>T</sup>Ĉ<sup>−1</sup>μ̂<sub>j</sub> − 1/2 μ̂<sub>j</sub><sup>T</sup>Ĉ<sup>−1</sup>μ̂<sub>j</sub> + ln(π̂<sub>j</sub>) ]
 </pre>
 
 
