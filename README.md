@@ -65,3 +65,5 @@ Metrics for QDA PCA Data:
 - TNR: 0.9118
 - FNR: 0.7684
 - Probability of Misclassification: 0.1830
+
+Our goal is to choose the model that achieves a good balance between the True Positive Rate and True Negative Rate to avoid both overdiagnosis and underdiagnosis. This is best achieved by the QDA model that uses the data before PCA is performed. It achieves the highest TPR meaning it is the best at correctly identifying individuals with diabetes/prediabetes. Along with this it achieves the lowest FNR meaning it is the least likely to misclassify individuals that are diabetic/prediabetic as non diabetic. Although it has the highest probability of misclassification and highest FPR meaning it misclassifies individuals that are non diabetic as diabetic/prediabetic the most, its ability to correctly identify diabetic/prediabetic individuals outweighs the cost of false positives in this use case. For this reason, we choose QDA using the data before PCA is performed as the best model for diabetes risk detection.
