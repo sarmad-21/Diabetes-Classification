@@ -41,6 +41,7 @@ Metrics for LDA Original Data:
 - FNR: 0.7810157023624275
 - Probability of Misclassification: 0.1417730999684642
 - Cross Validation Accuracy: 
+
 Metrics for LDA PCA Data:
 - TPR: 0.07738011034092517
 - FPR: 0.018892985549728628
@@ -48,6 +49,7 @@ Metrics for LDA PCA Data:
 - FNR: 0.9226198896590748
 - Probability of Misclassification: 0.14480842005676442
 - Cross Validation Accuracy: 
+
 Metrics for QDA Original Data:
 - TPR: 0.599519026736455
 - FPR: 0.2189067259028557
@@ -55,6 +57,7 @@ Metrics for QDA Original Data:
 - FNR: 0.40048097326354504
 - Probability of Misclassification: 0.24420529801324503
 - Cross Validation Accuracy: 
+
 Metrics for QDA PCA Data:
 - TPR: 0.2315744801244872
 - FPR: 0.08823596766436897
