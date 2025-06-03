@@ -32,4 +32,4 @@ Link to dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+ind
 </pre>
 
 ## Performance and Evaluation 
-The models were evaluated using 
+The models were evaluated using cross validation accuracy, confusion matrices, and misclassification probabilities. Further I wanted to compare how each model performed using the original data and the data with pca applied to it. 
